@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="samsruti.udacity.com.movie.MainActivity">
+    <item
+        android:id="@+id/sortMostPopularity"
+        android:orderInCategory="100"
+        android:title="@string/most_popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortHighRated"
+        android:orderInCategory="100"
+        android:title="@string/high_rated"
+        app:showAsAction="never" />
+</menu>
